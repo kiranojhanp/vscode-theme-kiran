@@ -133,9 +133,9 @@
 		"list.inactiveSelectionBackground": "#434c5e",
 		"list.inactiveSelectionForeground": "#d8dee9",
 		"list.warningForeground": "#ebcb8b",
-    "list.focusHighlightForeground": "#fff",
-    "editorSuggestWidget.selectedForeground":"#88c0d0",
-    "quickInput.background": "#1d2129",
+		"list.focusHighlightForeground": "#fff",
+		"editorSuggestWidget.selectedForeground": "#88c0d0",
+		"quickInput.background": "#1d2129",
 		"merge.border": "#292e3900",
 		"merge.currentContentBackground": "#81a1c14d",
 		"merge.currentHeaderBackground": "#81a1c166",
@@ -662,15 +662,15 @@
 				"foreground": "#D8DEE9"
 			}
 		},
-    {
-      "name": "Source Elixir Variable Other",
-      "scope": [
-        "source.elixir variable.other"
-      ],
-      "settings": {
-        "foreground": "#8FBCBB"
-      }
-    },
+		{
+			"name": "Source Elixir Variable Other",
+			"scope": [
+				"source.elixir variable.other"
+			],
+			"settings": {
+				"foreground": "#8FBCBB"
+			}
+		},
 		{
 			"name": "Variable Language",
 			"scope": "variable.language",
@@ -1319,6 +1319,130 @@
 			"settings": {
 				"foreground": "#8FBCBB"
 			}
+		}
+	],
+	"settings": [
+		{
+			"setting": "terminal.integrated.fontFamily",
+			"value": "MesloLGS NF"
+		},
+		{
+			"setting": "editor.fontSize",
+			"value": 16
+		},
+		{
+			"setting": "workbench.sideBar.location",
+			"value": "right"
+		},
+		{
+			"setting": "editor.minimap.renderCharacters",
+			"value": false
+		},
+		{
+			"setting": "editor.minimap.autohide",
+			"value": true
+		},
+		{
+			"setting": "editor.minimap.enabled",
+			"value": false
+		},
+		{
+			"setting": "editor.fontFamily",
+			"value": "OperatorMono-Book"
+		},
+		{
+			"setting": "editor.fontWeight",
+			"value": "normal"
+		},
+		{
+			"setting": "editor.lineHeight",
+			"value": 1.8
+		},
+		{
+			"setting": "editor.wrappingStrategy",
+			"value": "advanced"
+		},
+		{
+			"setting": "breadcrumbs.enabled",
+			"value": false
+		},
+		{
+			"setting": "terminal.integrated.fontSize",
+			"value": 16
+		},
+		{
+			"setting": "editor.renderLineHighlight",
+			"value": "none"
+		},
+		{
+			"setting": "editor.bracketPairColorization.independentColorPoolPerBracketType",
+			"value": true
+		},
+		{
+			"setting": "editor.matchBrackets",
+			"value": "never"
+		},
+		{
+			"setting": "editor.cursorStyle",
+			"value": "line-thin"
+		},
+		{
+			"setting": "editor.hideCursorInOverviewRuler",
+			"value": true
+		},
+		{
+			"setting": "editor.cursorBlinking",
+			"value": "solid"
+		},
+		{
+			"setting": "workbench.editor.enablePreview",
+			"value": false
+		},
+		{
+			"setting": "workbench.statusBar.visible",
+			"value": false
+		},
+		{
+			"setting": "workbench.layoutControl.enabled",
+			"value": false
+		},
+		{
+			"setting": "window.commandCenter",
+			"value": false
+		},
+		{
+			"setting": "workbench.colorTheme",
+			"value": "Kiranord"
+		},
+		{
+			"setting": "explorer.confirmDelete",
+			"value": false
+		},
+		{
+			"setting": "workbench.editorAssociations",
+			"value": {
+				"*.swiftmodule": "default"
+			}
+		},
+		{
+			"setting": "editor.wordWrap",
+			"value": "on"
+		},
+		{
+			"setting": "editor.inlayHints.enabled",
+			"value": "on"
+		},
+		{
+			"setting": "editor.stickyScroll.enabled",
+			"value": true
+		},
+		{
+			"setting": "files.autoSave",
+			"value": "afterDelay"
+		},
+		{
+			"setting": "editor.formatOnSave",
+			"value": true
 		}
 	]
 }
