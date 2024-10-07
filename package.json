@@ -1,0 +1,24 @@
+{
+  "name": "kiranord",
+  "displayName": "Kiranord",
+  "description": "Another Nord-based vscode theme",
+  "repository": "https://github.com/kiranojhanp/vscode-theme-kiranord",
+  "publisher": "kiranojhanp",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kiranord",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kiranord-color-theme.json"
+      }
+    ]
+  }
+}
